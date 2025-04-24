@@ -1,13 +1,15 @@
-🚀 AI Travel Itinerary Generator
-Welcome to the AI Travel Itinerary Generator, a smart AI-powered travel planner built with Streamlit, LangChain, and Groq. This tool helps users create personalized, well-structured travel itineraries based on their preferences.
+#🚀 AI Travel Itinerary Generator
+## Project Live at: https://ai-travel-itinerary-gen.streamlit.app/
 
-📌 Features
+###Welcome to the AI Travel Itinerary Generator, a smart AI-powered travel planner built with Streamlit, LangChain, and Groq. This tool helps users create personalized, well-structured travel itineraries based on their preferences.
+
+##📌 Features
 ✅ Interactive Chat Interface – Users can provide travel details step by step.
 ✅ Personalized Itineraries – Generates a day-wise itinerary based on budget, preferences, and dietary restrictions.
 ✅ Smart Recommendations – Suggests attractions, restaurants, and activities tailored to the user.
 ✅ Real-time Processing – Uses AI to refine inputs and provide the best travel plan.
 
-🛠️ Setup Instructions
+##🛠️ Setup Instructions
 1️⃣ Clone the Repository
 bash
 Copy
