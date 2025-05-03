@@ -25,7 +25,7 @@ if "user_inputs" not in st.session_state:
 
 st.title("🗺️ AI Travel Itinerary Generator")
 st.markdown("Welcome! This is a prototype of a smart AI travel planner that helps you create the perfect itinerary for your journey.")
-st.markdown("Note: For the best results, please enter your answers exactly as requested in each question. This helps the AI generate a more accurate and personalized itinerary.")
+st.markdown("Note: This is the first version of the tool, Please make sure to enter exactly what's asked in each question. Avoid using special characters, symbols, or unrelated text, as the AI may not understand it correctly.")
 st.markdown(" Where are you traveling to? or Planning to travel to?")
 
 # Display chat history
