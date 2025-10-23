@@ -39,7 +39,7 @@ if not st.session_state.user_inputs["destination"]:
     if user_input:
         st.session_state.user_inputs["destination"] = user_input
         st.session_state.messages.append({"role": "user", "content": user_input})
-        st.session_state.messages.append({"role": "assistant", "content": "Great! What are your travel dates? (e.g., 2025-01-25 to 2025-02-01)"})
+        st.session_state.messages.append({"role": "assistant", "content": "Great! What are your travel dates? (e.g., 25-11-2025 to 05-12-2025)"})
         st.rerun()
 
 # Step 2: Ask for travel dates
