@@ -23,7 +23,7 @@ def get_llm_response(prompt,chat_history=None, **kwargs):
         temperature=0.7,
         max_completion_tokens=4096,
         top_p=0.95,
-        stream=False,
+        stream=True,
         stop=None,
     )
     return completion.choices[0].message.content
