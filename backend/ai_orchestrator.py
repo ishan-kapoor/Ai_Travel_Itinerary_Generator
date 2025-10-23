@@ -18,7 +18,7 @@ def get_llm_response(prompt,chat_history=None, **kwargs):
         return "You've already answered this. Let's proceed."
 
     completion = client.chat.completions.create(
-        model="deepseek-r1-distill-llama-70b",
+        model="llama-3.3-70b-versatile",
         messages=[{"role": "system", "content": prompt.format(**kwargs)}],
         temperature=0.7,
         max_completion_tokens=4096,
