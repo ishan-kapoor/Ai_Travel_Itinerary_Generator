@@ -2,8 +2,8 @@
 import os
 from dotenv import load_dotenv
 from groq import Groq
-from langchain.chains import LLMChain
-from langchain.prompts import PromptTemplate
+from langchain import LLMChain
+from langchain import PromptTemplate
 
 from backend.prompts import SYSTEM_PROMPT, USER_PROMPT_REFINEMENT, ACTIVITY_SUGGESTIONS_PROMPT, ITINERARY_GENERATION_PROMPT
 
