@@ -1,6 +1,6 @@
 streamlit
 groq
-langchain
+langchain==0.0.263
 fastapi
 uvicorn
 beautifulsoup4
